@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baby Angel Dust</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" ,>
+    <link href="https://cdn.jsdelivr.net/gh/hung1001/font-awesome-pro@4cac1a6/css/all.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" ,>
+    <link href="https://cdn.jsdelivr.net/gh/hung1001/font-awesome-pro@4cac1a6/css/all.css" rel="stylesheet" type="text/css" />
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="intro">
+                <div class="logo">
+                    <img src="images/logo.png" alt="">
+                </div>
+               
+                <div id="menu-bar" class="fas fa-bars"></div>
+                
+                <div class="navbar">
+                    <a href="#home">Home</a>
+                    <a href="#discover">Discover</a>
+                    <a href="#market">Marketplace</a>
+                    <a href="#create">Create</a>
+                </div>
+
+    </header>
+    <div class="home" id="home">
+        <div class="main">
+            <h1>Baby <br><span> Angel Dust</span></h1>
+            <p>A utility meme token launched <br>
+                following the daddy which is the biggest
+                project <br> in the space right now. <br>
+                30-10-2022        
+            </p>
+
+            <div class="links">
+                <div class="telegram">
+                    <a target="_blank" href="https://t.me/officialbabyangeldust"><button class="">Telegram</button></a>
+                    <a target="_blank" href="https://twitter.com/badtheofficial?s=21&t=s5NzlEA_NQKNvcxhGkP3xw"><button class="">Twitter</button></a>
+                </div>
+                <div class="chart">
+                    <a target="_blank" href="https://poocoin.app/tokens/0xe4456d42b4622c7d3d65a0137332f61f350e5d18"><button class="">Chart</button></a>
+                </div>
+                   
+                   
+            </div>
+    
+
+            
+        </div>
+        <div class="see">
+            <a href="marketplace.html">See our marketplace </a>
+        </div>
+        
+
+    </div>
+
+    <div class="discover" id="discover">
+
+        <img src="images/icon.png" alt="">
+
+        <h1>Getting Started</h1>
+        <div class="frame">
+            <div class="fram">
+                <div class="step1">
+                    <div class="head">
+                        <img src="images/Gear.png" alt="">
+                        <p>Set up</p>
+                    </div>
+                    <p>SetUp a
+                        Metamask
+                        Wallet</p>
+                </div>
+                <div class="step1">
+                    <div class="head">
+                        <img src="images/Duration Finance.png" alt="">
+                        <p>Fund</p>
+                    </div>
+                    <p>Fund Metamask
+                        with BNB [BSC]</p>
+                </div>
+                <div class="step1">
+                    <div class="head">
+                        <img src="images/Buy.png" alt="">
+                        <p>Buy</p>
+                    </div>
+                    <p>Buy $BDUST
+                        Using the 
+                        Official CA</p>
+                </div>
+            </div>
+            
+        </div>
+
+
+
+        <div class="copy-text">
+        <div class="copy">
+            <input type="text" class="text" value="0xe4456D42b4622C7D3d65a0137332f61f350e5d18" id="myInput">
+            <button onclick="myFunction()">
+                <i class="fal fa-copy"></i>
+            </button>
+        </div>
+        </div>
+        <p>Official Contract Address</p>
+
+    </div>
+
+    <div class="marketplace" id="market">
+        <div class="market">
+             <img src="images/icon.png" alt="">
+
+            <h1>Collect and sell <br>
+            <span>Remarkable NFTs</span>
+        </h1>
+
+        </div>
+        <div class="market-image">
+            <div class="nft-image">
+                <img src="images/Rectangle 6.png" alt="">
+                <img src="images/Rectangle 7.png" alt="">
+                <img src="images/Rectangle 8.png" alt="">
+            </div>
+            <div class="mar">
+                    <a href="marketplace.html">Click here to view marketplace</a>
+            </div>
+        
+        </div>
+
+
+
+    </div>
+   <div class="create" id="create">
+        <img src="images/icon.png" alt="">
+
+       <h1>Create and sell <br>
+       <span>Your NFTs</span>
+  		 </h1>
+	<div class="create-list">
+		<img src="images/Group 39.svg" alt="">
+	
+	</div>
+
+</div>
+
+
+
+
+
+
+
+
+<script>
+    function myFunction() {
+  // Get the text field
+  var copyText = document.getElementById("myInput");
+
+  // Select the text field
+  copyText.select();
+  copyText.setSelectionRange(0, 99999); // For mobile devices
+
+   // Copy the text inside the text field
+  navigator.clipboard.writeText(copyText.value);
+
+  // Alert the copied text
+  alert("Copied the text: " + copyText.value);
+}
+</script>
+
+<script type="text/javascript">
+    window.addEventListener("scroll", function(){
+        let header = document.querySelector("header");
+        header.classList.toggle("sticky", window.scrollY > 3);}
+        
+    )
+</script>
+
+<script src="index.js"></script>
+
+</body>
+</html>
